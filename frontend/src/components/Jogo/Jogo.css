@@ -39,7 +39,11 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear; */
 
-  animation: mover-direita-para-esquerda infinite 5s linear;
+  animation: mover-direita-para-esquerda infinite 2s linear;
+}
+
+.parar-animacao {
+  animation-play-state: paused;
 }
 
 @keyframes mover-direita-para-esquerda {
